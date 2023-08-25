@@ -23,6 +23,7 @@ fb_login = driver.find_element(by=By.XPATH, value='//*[@id="modal-manager"]/div/
                                                   '[2]/button')
 fb_login.click()
 
+
 #Switch to Facebook login window
 sleep(2)
 base_window = driver.window_handles[0]
